@@ -1,0 +1,32 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "677f9de4-3929-49c4-86a6-13e7195ae18e",
+  "tenantId": "e97ea39c-4461-44a4-a665-4f063dd03b05",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Azure Backup should be enabled for Virtual Machines",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+  "scope": "/subscriptions/dcca2e66-0f50-4542-b53b-4012fe44be8b",
+  "notScopes": [],
+  "parameters": {},
+  "description": "",
+  "metadata": {
+   "assignedBy": "Per Bengtsson",
+   "parameterScopes": {},
+   "createdBy": "5995ae42-06ed-404e-9883-8f22cea8ac8e",
+   "createdOn": "2022-12-09T09:49:31.406812Z",
+   "updatedBy": "5995ae42-06ed-404e-9883-8f22cea8ac8e",
+   "updatedOn": "2022-12-09T10:10:56.3055607Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/dcca2e66-0f50-4542-b53b-4012fe44be8b/providers/Microsoft.Authorization/policyAssignments/f30c4b4a33724cb585ac93d5",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "f30c4b4a33724cb585ac93d5",
+ "location": "westeurope"
+}
